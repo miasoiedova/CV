@@ -3,29 +3,47 @@
     color: #333;
 }
 
-.container{
+.border{
     border:
     solid
     rgb(206, 136, 247);
     border-width: 0 0 1px 0;
-    width: 1000px;
+}
+
+.mainInfo{
+    display: inline-block;
+    width: 100vw;
+}
+
+.name{
+    font-style: italic;
+}
+
+.namePosition{
+    float: left;
 }
 
 .photo{
+    float: right;
+}
+
+.photoImage{
     border: 
     2px
     solid
     rgb(206, 136, 247);
     padding: 10px 10px;
     margin-top: 10px;
+    width: 100px;
+    height: 100px;
 }
 
 .position{
     font-weight: bold;
 }
 
-.name{
-    font-style: italic;
+.text{
+    font-weight: normal;
 }
 
 th{
@@ -35,6 +53,7 @@ th{
 .table-experience{
     background-color:rgb(225, 193, 255) ;
     margin-bottom: 10px;
+    width: 100vw;
 }
 
 .tabletitle{
@@ -57,9 +76,10 @@ th{
     text-decoration: none;
 }
 
-.skills{
+.skillsList{
     list-style-type: square ;
 }
+
 
 .hireme{
     padding-top: 10px;
